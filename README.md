@@ -9,17 +9,17 @@ This dataset was obtained from this link: http://dataheart.ir/article/3475/%D8%A
 
 ## Dataset columns:
 
-| Row |Column| Description                                        |
-|----|---|----------------------------------------------------|
-| 1  |satisfaction_level| Current level of employee satisfaction.|
-| 2  |last_evaluation| The score of the last job evaluation.|
-| 3  |number_project| The number of projects that the employee has done. |
-| 4  |average_montly_hours| Average working hours per month.|
-| 5  |time_spend_company|The number of years the employee has been in the company.|
-| 6  |Work_accident|Has the employee had a work dispute or not?|
-| 7  |promotion_last_5years|Has the employee been promoted in the last 5 years or not?|
-| 8  |sales|Job position|
-| 9  |salary|Employee's salary|
-| 10 |left|Has the employee left the company or not?|
+| Row | Column | Description | Type                       |
+|----|-----------------------|------------------------------------------------------------|----------------------------|
+| 1  | satisfaction_level    | Current level of employee satisfaction.                    | Float                      |
+| 2  | last_evaluation       | The score of the last job evaluation.                      | Float                      |
+| 3  | number_project        | The number of projects that the employee has done.         | Integer                    |
+| 4  | average_montly_hours  | Average working hours per month.                           | Integer                    |
+| 5  | time_spend_company    | The number of years the employee has been in the company.  | Integer                    |
+| 6  | Work_accident         | Has the employee had a work dispute or not?                | Binary (0, 1)              |
+| 7  | promotion_last_5years | Has the employee been promoted in the last 5 years or not? | Binary (0, 1               |
+| 8  | sales                 | Job position                                               | String                     |
+| 9  | salary                | Employee's salary                                          | String (low, medium, high) |
+| 10 | left                  | Has the employee left the company or not?                  | Binary (0, 1)              |
 
 
